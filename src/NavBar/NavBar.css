@@ -1,0 +1,71 @@
+.navBar-container{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    background-color: #272727;
+    text-shadow: 1px 1px 3px #a1a1a1;
+}       
+.navBar-list-container{
+    width: 85%;
+    height: 3.5rem;
+}
+
+.navBar-list{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.navBar-list-li{
+    font-size: 1rem;
+}
+
+.icon-container{
+    width: 15%;
+}
+.icon-container-img{
+    width: 50%;
+    max-width: 3rem;
+    padding-top: 1rem;
+}
+
+.active{
+    color: rgb(255, 255, 255); 
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+@media (min-width:425px){
+    .navBar-list{
+        width: 60%;
+        margin-left: auto;
+        margin-right: 2rem;
+    }
+    .navBar-list-li{
+        padding-right: 1.5rem;
+        font-size: 1.4rem;
+    }
+    .active{
+        font-size: 1.5rem;
+    }
+    .icon-container-img{
+        padding-top: .4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navBar-list{
+        padding-left: 11rem;
+        margin-right: 1rem;
+    }
+    .navBar-list-li{
+        font-size: 1.2rem;
+    }
+    .active{
+        font-size: 1.8rem;
+    }
+    .icon-container img{
+        width: 7rem;
+    }
+}

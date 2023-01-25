@@ -1,0 +1,21 @@
+.section{
+  width: 100%;
+  margin-top: 70px;
+}
+.edu-title{
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+@media (min-width:600px){
+  .edu-list{
+    display: grid ;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media (min-width:1440px){
+  .edu-list{
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}

@@ -1,0 +1,22 @@
+.section{
+  width: 100%;
+  margin-top: 70px;
+}
+.exp-title{
+  font-size: 2rem;
+}
+@media (min-width:600px){
+  .exp-list{
+    display: grid ;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 0fr;
+  }
+}
+@media (min-width:1440px){
+  .exp-section{
+    width: 48%;
+    margin-left: 1rem;
+    display: inline-block;
+  }
+  
+}

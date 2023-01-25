@@ -1,0 +1,40 @@
+.div-exp{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  background:linear-gradient(207.8deg,#8b764d  16.69%,#201E1C  100%);
+  border-radius: 15px;
+}
+.p-trabajo{
+  font-weight: 600;
+  background-color: transparent;
+  padding: 10px;
+}
+.p-tareas{
+  font-family: 'Inter';
+  font-weight: 300;
+  background-color: transparent;
+  padding: 10px;
+}
+@media (min-width:600px){
+  .div-exp{
+      height: 190px;
+      display: flex;
+      flex-direction: column;
+  }
+}
+@media (min-width:1200px){
+  .div-exp{
+    height: 200px;
+  }
+}
+@media (min-width:1440px){
+  .div-exp{
+    height: 400px;
+  }
+}
+@media (min-width:1700px){
+  .div-exp{
+    height: 430px;
+  }
+}

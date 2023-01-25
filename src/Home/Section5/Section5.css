@@ -1,0 +1,28 @@
+.section5{
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  background:linear-gradient(180deg, #000000 16.69%, #535353 100%);
+}
+.section5 h2{
+  background-color: transparent;
+  margin-top: 10px;
+  font-size: 2rem;
+}
+.ulProyectos{
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  font-family: 'Inter';
+  text-align: center;
+  list-style: none;
+  background-color: transparent;
+}
+.ulProyectos li{
+  margin-top: 10px;
+  background-color: transparent;
+}
+a{
+  text-decoration: none;
+  background-color: transparent;
+}

@@ -1,0 +1,50 @@
+.section4{
+   width: 80%;
+   margin: auto;
+   margin-bottom: 20px;
+   background:linear-gradient(207.8deg, #542d2c 16.69%, #535353 100%);
+   border-radius: 15px;
+   
+}
+.ul4-container{
+  width: 70%;
+  margin: auto;
+}
+.section4-title{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+.section4-list{
+  padding: 10px 10px 10px 20px;
+  
+  text-align: justify
+}
+
+@media (min-width:600px){
+  .section4{
+    width: 60%;
+  }
+  .section4-list{
+    text-align: justify;
+  }
+}
+@media (min-width:700px){
+  .section4{
+    width: 40%;
+    height: 15rem;
+  }
+  .section4-list{
+    
+  }
+}
+@media (min-width:1440px){
+  .section4{
+    width: 30%;
+    height: 300px;
+    margin-left: 7rem;
+    display: inline-block;
+    position: absolute;
+    margin-top: 8rem;
+  }
+}
