@@ -15,7 +15,7 @@ export function Footer(){
           <a href="https://www.linkedin.com/in/agustin-vessoni-374128234/" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a>
         </div>
         <div>
-          <p className="footer-update">Última actualización: 24 de enero de 2023</p>
+          <p className="footer-update">Última actualización: 7 de febrero de 2023</p>
         </div>
       </footer>
   )

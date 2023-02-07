@@ -29,6 +29,9 @@ function Section5(){
             <li><a href="https://vessweb.web.app/" target='_blank' rel="noreferrer">
             Mi primer portfolio web - curso "Argentina Programa".
             </a></li>
+            <li><a href="https://vessoni149.github.io/ConsumoApiRickAndMorty/" target='_blank' rel="noreferrer">
+            Consumo de API con React.
+            </a></li>
             </ul>
         </section>
     )
