@@ -12,6 +12,7 @@ import cert9 from '../assets/certificados/introReact.jpg';
 import cert10 from '../assets/certificados/diploma-mobile-first_page-0001.jpg';
 import cert11 from '../assets/certificados/git&github.jpg';
 import cert12 from '../assets/certificados/diploma-solidity-celo.jpg';
+import cert13 from '../assets/certificados/diploma-fundamentos-node.jpg';
 export function Certificados(){
   return(
     <div>
@@ -52,6 +53,9 @@ export function Certificados(){
       </div>
       <div className="gallery-item">
         <img src={cert12} alt="Solidity con Celo"></img>
+      </div>
+      <div className="gallery-item">
+        <img src={cert13} alt="Fundamentos de Node.js"></img>
       </div>
     </div>
     </div>

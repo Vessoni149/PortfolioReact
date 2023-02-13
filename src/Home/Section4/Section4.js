@@ -8,7 +8,7 @@ export function Section4(){
         <ul className="section4-list">
           <li>Buscando empleo como Front End developer.</li>
           <li>Estudiando inglés con profesora particular.</li>
-          <li>Realizando un curso de React en Platzi.</li>
+          <li>Realizando un curso de Java en Platzi.</li>
         </ul>
       </div>
     </section>
