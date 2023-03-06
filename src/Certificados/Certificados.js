@@ -13,6 +13,8 @@ import cert10 from '../assets/certificados/diploma-mobile-first_page-0001.jpg';
 import cert11 from '../assets/certificados/git&github.jpg';
 import cert12 from '../assets/certificados/diploma-solidity-celo.jpg';
 import cert13 from '../assets/certificados/diploma-fundamentos-node.jpg';
+import cert14 from '../assets/certificados/diploma-java-basico.jpg';
+import cert15 from '../assets/certificados/diploma-java-oop.jpg';
 export function Certificados(){
   return(
     <div>
@@ -56,6 +58,12 @@ export function Certificados(){
       </div>
       <div className="gallery-item">
         <img src={cert13} alt="Fundamentos de Node.js"></img>
+      </div>
+      <div className="gallery-item">
+        <img src={cert14} alt="Introducción a Java SE"></img>
+      </div>
+      <div className="gallery-item">
+        <img src={cert15} alt="Curso de Java SE Orientado a Objetos"></img>
       </div>
     </div>
     </div>
