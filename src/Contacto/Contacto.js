@@ -61,11 +61,11 @@ export function Contacto(){
         </ul>
         <p>Puede contactarme a través de este formulario, escribirme vía mail, o por mensaje directo en mis redes sociales. Telefonicamente sólo Whatsapp (llamada o mensaje)</p>
         <div className="icons-container">
-          <a href="https://www.facebook.com/agustin.vessoni/" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faFacebook}/></a>
-          <a href="https://www.instagram.com/agustinvessoni/" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram}/></a>
+          <a href="https://www.facebook.com/agustin.vessoni/" target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook}/></a>
+          <a href="https://www.instagram.com/agustinvessoni/" target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram}/></a>
           <img src={kayak} alt="kayak"></img>
-          <a href="https://github.com/Vessoni149" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faGithub}/></a>
-          <a href="https://www.linkedin.com/in/agustin-vessoni-374128234/" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a>
+          <a href="https://github.com/Vessoni149" target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/></a>
+          <a href="https://www.linkedin.com/in/agustin-vessoni-374128234/" target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a>
         </div>
       </div>
     </div>
